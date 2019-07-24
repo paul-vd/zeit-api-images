@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "my-nodejs-ts-project",
+  "builds": [{ "src": "api/**/*.ts", "use": "@now/node" }, { "src": "package.json", "use": "@now/next" }]
+}
